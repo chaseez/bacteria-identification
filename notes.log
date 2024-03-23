@@ -1,0 +1,40 @@
+# ------------
+On my machine:
+batch_size = 60
+First trained classification model with lr=1e-4 for 10 epochs with val accuracy of 78%
+Then trained clf model with lr=1e-5 for 5 epochs with val accuracy of 81%
+Then trained clf model with lr=5e-6 for 10 epochs with val accuracy of 81.5%
+Then trained clf model with lr=5e-7 for 10 epochs with val accuracy of 84%
+Then trained clf model with lr=1e-7 for 10 epochs with val accuracy of 81.9%
+Then trained clf model with lr=1e-3 for 10 epochs with val accuracy of 84.8%
+Then trained clf model with lr=5e-3 for 10 epochs with val accuracy of 88.2%
+Then trained clf model with lr=2e-3 for 10 epochs with val accuracy of 88.5%
+
+Test accuracy: 87.0%
+
+# ------------
+On my machine rotated pictures:
+batch_size = 60
+First trained classification model with lr=2e-3 for 10 epochs with val accuracy of 82.7%
+Then trained clf model with lr=2e-3 for 10 epochs with val accuracy of 84.6%
+Then trained clf model with lr=1e-3 for 10 epochs with val accuracy of 84.2%
+Then trained clf model with lr=2e-3 for 10 epochs with val accuracy of 87%
+
+Test accuracy: 87.8%
+
+# ------------
+On Google Colab:
+batch_size = 400
+First trained classification model with lr=1e-3 for 10 epochs with val accuracy of 91%
+Then trained clf model with lr=3e-3 for 10 epochs with val accuracy of 93.9%
+
+Test accuracy: 80%
+# ------------
+On Google Colab different batch_size:
+
+batch_size = 60 (Used model trained above)
+Then trained clf model with lr=2e-3 for 10 epochs with val accuracy of 92.3%
+
+Test accuracy: 83%
+# ------------
+
